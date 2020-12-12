@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DH</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="./css/lienhe.css" rel="stylesheet">
+    <link href="./BT1/lienhe.js" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<!-- biểu tượng ngôi nhà-->
+		<a href='BT1.html' class='topnav-icons fa fa-home w3-left w3-bar-item w3-button active' title='Home'></a>
+		<div>
+			
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" 
+			data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				
+				<li class="nav-item">
+					<a class="nav-link" href="About.html">Giới thiệu</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="dichvu.html">Dịch vụ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="lienhe.html">Liên hệ</a>
+				</li>
+			</ul>
+			<!-- Navbar-nav with FORM -->
+			<ul class="navbar-nav">
+			   <form class="form-inline" action="/somepage">
+			      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+			      <button class="btn btn-success" type="submit">Search</button>
+			      
+			   </form>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- phần nội dung chính -->
+
+<!-- Carousel  slide hình ảnh để chuyển hình ảnh-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>		
+		<li data-target="#slides" data-slide-to="3"></li>
+	</ul>
+	<!-- khai báo các hình ảnh cho slides -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="./images/slider4.jpg">
+			<!--thông tin của băng truyền -->
+			<div class="carousel-caption">
+				<h1 class="display-2"><b>DH</b></h1>
+				<h3>Xây Vững Niềm Tin  – Dựng Uy Tín Vàng</h3>
+				
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="./images/slider1.png">
+		</div>
+		<div class="carousel-item">
+			<img src="./images/slider2.jpg">
+		</div>
+		<div class="carousel-item">
+			<img src="./images/slider3.jpg">
+		</div>
+	</div>
+</div>
+
+<div class="container" style="margin-top:30px">
+  <div class="row padding">
+  	
+	    <div class="col-md-12 col-lg-4">
+	    	
+	      	<div id = "map" >
+
+				<h3>Bản đồ chỉ dẫn</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.76664214766!2d105.89041471441018!3d21.201427187238313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31350313aace2f95%3A0xa69b94e92e88d4c6!2zVUJORCB4w6MgWHXDom4gVGh1!5e0!3m2!1svi!2s!4v1588560493512!5m2!1svi!2s" width="100%" height="320" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+
+			<div >
+				<figure class="snip1325"><a href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/ls-sample4.jpg" alt="ls-sample4" /></a></figure>
+			</div>	
+	      	<hr class="d-sm-none">
+
+   		</div>
+	
+    <div class="col-md-12 col-lg-8">
+      	<form>
+      		<div class="form-group row">
+			    
+			      <label for="inputName">Họ và tên</label>
+			      <input type="text" class="form-control" placeholder="Name">
+			    
+			</div>   
+			
+		    <div class="form-group row">
+		      <label for="inputEmail4">Email</label>
+		      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+		    </div>
+
+		    <div class="form-group row">
+			    
+			      <label for="inputAddress">Địa chỉ</label>
+			      <input type="text" class="form-control" placeholder="Địa chỉ">
+			    
+			</div>  
+
+		    <div class="form-group row">
+		      <label for="inputPassword4">Password</label>
+		      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+		    </div>
+			  
+			<div class="form-group row">
+			    <label for="exampleFormControlTextarea1">Nội dung</label>
+			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Nội dung"></textarea>
+			</div>  
+			<button onclick = "myFunction()" type="submit" class="btn btn-primary">Gửi đi</button>	  
+		</form>
+      <br>
+    </div>
+  </div>
+</div>
+<script>
+	function myFunction() {
+	  alert("Bạn đã gửi thành công!\n Cảm ơn bạn vì đã đăng kí");
+	}
+</script>	
+
+</body>
+
+<div class="container-fluid padding">	
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Cách thức liên hệ</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>	
+<footer>
+	<div class="container-fluid padding">	
+		<div class="row text-center">
+			<div class="col-md-4">
+			<!--	<img src="./images/nav1.jpg"> -->
+				<hr class="light">
+				<h5>Cách thức liên hệ</h5>
+				<hr class="light">
+				<p>SĐT: 0358649989</p>
+				<p>Email: dhmail@gmail.com</p>
+				<p>Văn phòng: Sóc Sơn, Hà Nội, Việt Nam</p>
+			</div>
+			<div class="col-md-4">				
+				<hr class="light">
+				<h5>Giờ làm việc</h5>
+				<hr class="light">
+				<p>Thứ hai-Thứ Sáu: 7am - 5pm</p>
+				<p>Cuối tuần: 8am - 12am</p>
+			</div>
+			<div class="col-md-4">				
+				<hr class="light">
+				<h5>Dịch vụ</h5>
+				<hr class="light">
+				<p>Xây dựng nhà ở</p>
+				<p>Thiết kế nội thất</p>
+				<p>Bảo trì nhà ở</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; DH</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+</html>
